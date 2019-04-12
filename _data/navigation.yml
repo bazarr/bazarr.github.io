@@ -1,12 +1,14 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: <i class="fas fa-home"></i> Home
+    url: /
+  - title: <i class="fas fa-star"></i> Features
+    url: /#features
+  - title: <i class="fas fa-download"></i> Download
+    url: /#download
+  - title: <i class="fas fa-question-circle"></i> Support
+    url: /#support
+  - title: <i class="fas fa-heart"></i> Donate
+    url: https://beerpay.io/morpheus65535/bazarr
+  - title: <i class="fab fa-github-alt"></i> GitHub
+    url: https://github.com/morpheus65535/bazarr

@@ -1,3 +1,48 @@
 ---
 layout: splash
+
+excerpt: "A companion application to Sonarr and Radarr that manages and downloads subtitles based on your requirements. You define your preferences by TV shows or movies and Bazarr takes care of everything for you."
+header:
+  overlay_image: /assets/img/banner.png
+  overlay_filter: 0.5
+  
+
+feature_row1:
+  - image_path: /assets/img/wanted.png
+    title: "Automatic search"
+    excerpt: 'Search automatically for missing subtitles and download them as soon as they become available in your desired language.'
+feature_row2:
+  - image_path: /assets/img/manual.png
+    title: "Manual search"
+    excerpt: 'Find all the matching subtitles, choose the one you want and download it to your media directory with the proper name to be used by your media player.'
+feature_row3:
+  - image_path: /assets/img/upgrade.png
+    title: "Subtitles upgrade"
+    excerpt: 'Search for matching subtitles on a regular basis and upgrade the one you previously downloaded if a better one is found.'
 ---
+
+<h1 id="features">Features</h1>
+
+{% include feature_row id="feature_row1" type="left" %}
+
+{% include feature_row id="feature_row2" type="right" %}
+
+{% include feature_row id="feature_row3" type="left" %}
+
+<h1 id="download">Download</h1>
+
+<div class="container">
+	<div class="section notice text-center"><h2><i class="fab fa-python"></i> Linux, Windows and macOS</h2><p>Running from python sources<br>Automatic Updates</p><a href="https://github.com/morpheus65535/bazarr/wiki/Installation-Running-from-Source" class="btn btn--info">Instructions</a></div>
+	<div class="section notice text-center"><h2><i class="fab fa-windows"></i> Windows</h2><p>Automatic Updates<br>Run as a Service<br>Installer</p><a href="#" class="btn btn--info" disabled>Coming soon!</a></div>
+	<div class="section notice text-center"><h2><i class="fab fa-docker"></i> Docker</h2><p>Fully isolated from the host<br>Automatic Updates</p><a href="https://hub.docker.com/r/linuxserver/bazarr" class="btn btn--info">Instructions</a></div>
+</div>
+<br>
+
+<h1 id="support">Support</h1>
+
+<div class="container">
+	<div class="block notice" onclick="window.location='https://github.com/morpheus65535/bazarr/wiki';"><h2><i class="far fa-lightbulb"></i> Wiki</h2><p>Check out the installation note and user guides.</p></div>
+	<div class="block notice" onclick="window.location='https://discord.gg/MH2e2eb';"><h2><i class="fab fa-discord"></i> Discord</h2><p>Join our Discord server for a chat.</p></div>
+	<div class="block notice" onclick="window.location='https://github.com/morpheus65535/bazarr/issues';"><h2><i class="fab fa-github"></i> GitHub Issues</h2><p>Track bugs and features for the things that matter to you</p></div>
+	<div class="block notice" onclick="window.location='https://www.reddit.com/r/bazarr/';"><h2><i class="fab fa-reddit-alien"></i> Bazarr subreddit</h2><p>Discuss Bazarr and talk to other users.</p></div>
+</div>
