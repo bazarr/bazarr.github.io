@@ -18,6 +18,12 @@ analytics:
     tracking_id          : "UA-138214134-1"
     anonymize_ip         : false
 
+# SEO Related
+google_site_verification : "ogik8OQ3530vDhrUf6sprJ7FjneiSiZAhaXZus79c6E"
+bing_site_verification   :
+yandex_site_verification :
+naver_site_verification  :
+
 # Reading Files
 include:
   - .htaccess
@@ -90,6 +96,7 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # Plugins (previously gems:)
 plugins:
+  - jekyll-seo-tag
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
