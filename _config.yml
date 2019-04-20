@@ -5,7 +5,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 # Site Settings
 locale                   : "en-US"
 title                    : "Bazarr"
-description              : "A companion application to Sonarr and Radarr that manages and downloads subtitles based on your requirements. You define your preferences by TV shows or movies and Bazarr takes care of everything for you."
+description              : "Bazarr is a companion application to Sonarr and Radarr that manages and downloads subtitles based on your requirements."
 url                      : "http://www.bazarr.media"
 repository               : "morpheus65535/bazarr"
 logo                     : "/assets/img/logo.png"
