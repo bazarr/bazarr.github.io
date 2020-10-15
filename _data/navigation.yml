@@ -9,6 +9,6 @@ main:
   - title: <i class="fas fa-question-circle"></i> Support
     url: /#support
   - title: <i class="fas fa-heart"></i> Donate
-    url: https://beerpay.io/morpheus65535/bazarr
+    url: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XHHRWXT9YB7WE&source=url
   - title: <i class="fab fa-github-alt"></i> GitHub
     url: https://github.com/morpheus65535/bazarr
