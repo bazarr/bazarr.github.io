@@ -13,9 +13,9 @@ masthead_title           : " "
 
 # Analytics
 analytics:
-  provider               : "google" # false (default), "google", "google-universal", "custom"
+  provider               : "google-gtag"
   google:
-    tracking_id          : "G-FGJ71QHVC0"
+    measurement_id       : "G-FGJ71QHVC0"
     anonymize_ip         : false
 
 # SEO Related
